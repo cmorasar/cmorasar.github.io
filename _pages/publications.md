@@ -5,7 +5,7 @@ permalink: /publications-talks/
 author_profile: true
 ---
 
-# Publications
+## Publications
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
@@ -27,7 +27,7 @@ author_profile: true
   *Shiguang Deng, Carlos Mora, Diran Apelian, Ramin Bostanabad*  
   International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2022
 
-# Talks
+## Talks
 
 - **Probabilistic Neural Data Fusion for Learning from an Arbitrary Number of Multi-fidelity Data Sets**  
   Sandia Machine Learning and Deep Learning Workshop, 2023
