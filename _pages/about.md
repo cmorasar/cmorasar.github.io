@@ -11,7 +11,7 @@ I am a third-year PhD student at the University of California, Irvine, specializ
 
 Prior to my PhD, I graduated with honors in aerospace engineering from the Polytechnic University of Catalonia. 
 
-## Recent News
+## Recent news
 - I will be giving a talk on _Operator learning via neural networks with kernel-weighted corrective residuals_ at EMI/PMC 2024.
 - January 2024: new preprint [available](https://arxiv.org/abs/2401.03492) on a novel machine learning method for PDE solving.
 - December 2023: new preprint [available](https://arxiv.org/abs/2312.07694) on _GP+: A Python Library for Kernel-based learning via Gaussian Processes_ - .
