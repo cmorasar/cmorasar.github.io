@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD student at the University of California, Irvine, specializing in computational sciences and engineering. In particular, my research interests lie within the fields of scientific machine learning, data fusion and uncertainty quantification. In my research, I develop probabilistic machine learning methods to model complex systems across science and engineering, see my [publications](https://cmorasar.github.io/publications/). I am fortunate to have received support from the Balsells fellowship. 
+I am a third-year PhD student at the University of California, Irvine, specializing in computational science and engineering. My research interests lie within the fields of scientific machine learning, data fusion and uncertainty quantification. In my work, I develop probabilistic machine learning methods to model complex systems across various scientific and engineering domains. You can find my publications on this [link](https://cmorasar.github.io/publications/). Additionally, I am grateful to have received support from the Balsells fellowship. 
 
 Prior to my PhD, I graduated with honors in aerospace engineering from the Polytechnic University of Catalonia. 
 
