@@ -1,13 +1,13 @@
 # main links links
 main:    
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
   - title: "Publications & Talks"
     url: /publications-talks/
 
-  - title: "Talks"
-    url: /Talks/
+  # - title: "Talks"
+  #   url: /Talks/
     
   - title: "CV"
     url: /files/Resume.pdf
