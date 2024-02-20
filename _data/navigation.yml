@@ -2,7 +2,9 @@
 main:    
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+  - title: "About"
+    url: /about/
+
   - title: "Publications & Talks"
     url: /publications-talks/
 
