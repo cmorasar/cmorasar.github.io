@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+#title: ""
+permalink: /publications-talks/
 author_profile: true
 ---
 
@@ -9,7 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-### Publications
+# Publications
 
 - **[Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations](https://arxiv.org/abs/2401.03492)**  
   *Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
@@ -20,19 +20,19 @@ author_profile: true
 - **[Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets](https://www.sciencedirect.com/science/article/pii/S0045782523003316)**  
   *Carlos Mora, Jonathan Tammer Eweis-Labolle, Tyler Johnson, Likith Gadde and Ramin Bostanabad*  
   Computer Methods in Applied Mechanics and Engineering, 2023
-- **[Data-Driven Calibration of Multifidelity Multiscale Fracture Models Via Latent Map Gaussian Process](https://www.sciencedirect.com/science/article/pii/S0045782523003316)**  
+- **[Data-Driven Calibration of Multifidelity Multiscale Fracture Models Via Latent Map Gaussian Process](https://asmedigitalcollection.asme.org/mechanicaldesign/article/145/1/011705/1147508/Data-Driven-Calibration-of-Multifidelity)**  
   *Shiguang Deng, Carlos Mora, Diran Apelian and Ramin Bostanabad*  
   Journal of Mechanical Design, 2023
-- **[Multi-Fidelity Reduced-Order Models for Multiscale Damage Analyses With Automatic Calibration](https://www.sciencedirect.com/science/article/pii/S0045782523003316)**  
+- **[Multi-Fidelity Reduced-Order Models for Multiscale Damage Analyses With Automatic Calibration](https://solarenergyengineering.asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86236/V03BT03A031/1150433)**  
   *Shiguang Deng, Carlos Mora, Diran Apelian, Ramin Bostanabad*  
   International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2022
 
-### Talks
+# Talks
 - **Probabilistic Neural Data Fusion for Learning from an Arbitrary Number of Multi-fidelity Data Sets**  
   Sandia Machine Learning and Deep Learning Workshop, 2023
 - **Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks**  
   17th U. S. National Congress on Computational Mechanics, 2023
-  
+
 <!-- {% include base_path %}
 
 {% for post in site.publications reversed %}
