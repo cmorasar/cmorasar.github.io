@@ -11,6 +11,14 @@ I am a third-year PhD student at the University of California, Irvine, specializ
 
 Prior to my PhD, I graduated with honors in aerospace engineering from the Polytechnic University of Catalonia. 
 
+## Recent News
+- I will be giving a talk on _Operator learning via neural networks with kernel-weighted corrective residuals_ at EMI/PMC 2024.
+- New preprint [available](https://arxiv.org/abs/2401.03492) on a novel machine learning method for PDE solving - January 2024.
+- New preprint [available](https://arxiv.org/abs/2312.07694) on _GP+: A Python Library for Kernel-based learning via Gaussian Processes_ - December 2023.
+- Our paper _Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets_ has been [published](https://www.sciencedirect.com/science/article/pii/S0045782523003316) in Computer Methods in Applied Mechanics and Engineering.
+- I gave a talk on _Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks_ at the 17th U.S. National Congress on Computational Mechanics - July 2023.
+- I gave a talk on _Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets_ at the Sandia Machine Learning and Deep Learning Workshop - July 2023.
+
 <!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
