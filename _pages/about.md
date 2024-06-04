@@ -12,11 +12,11 @@ I am a third-year PhD student at the University of California, Irvine, specializ
 Prior to my PhD, I graduated in aerospace engineering with honors from the Polytechnic University of Catalonia. 
 
 ## Recent news
-- I will be giving a talk on _Operator learning via neural networks with kernel-weighted corrective residuals_ at EMI/PMC 2024.
+- I presented my research on _Operator learning via neural networks with kernel-weighted corrective residuals_ at EMI/PMC 2024.
 - January 2024: new preprint [available](https://arxiv.org/abs/2401.03492) on a novel machine learning method for PDE solving.
 - December 2023: new preprint [available](https://arxiv.org/abs/2312.07694) on _GP+: A Python Library for Kernel-based learning via Gaussian Processes_.
 - October 2023: my paper _Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets_ has been [published](https://www.sciencedirect.com/science/article/pii/S0045782523003316) in Computer Methods in Applied Mechanics and Engineering.
-- July 2023: I gave a talk on _Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks_ at the 17th U.S. National Congress on Computational Mechanics.
+- July 2023: I presented my work on _Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks_ at the 17th U.S. National Congress on Computational Mechanics.
 - July 2023: I gave a talk on _Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets_ at the Sandia Machine Learning and Deep Learning Workshop.
 
 <!-- A data-driven personal website
