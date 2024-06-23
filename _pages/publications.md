@@ -11,12 +11,12 @@ author_profile: true
   <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+- **[GP+: A Python library for kernel-based learning via Gaussian processes](https://www.sciencedirect.com/science/article/pii/S0965997824000930)**  
+  *Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, Carlos Mora and Ramin Bostanabad*  
+  Advances in Engineering Software, 2024
 - **[Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations](https://arxiv.org/abs/2401.03492)**  
   *Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
   arXiv, 2024
-- **[GP+: A Python Library for Kernel-based learning via Gaussian Processes](https://arxiv.org/abs/2312.07694)**  
-  *Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, Carlos Mora and Ramin Bostanabad*  
-  arXiv, 2023
 - **[Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets](https://www.sciencedirect.com/science/article/pii/S0045782523003316)**  
   *Carlos Mora, Jonathan Tammer Eweis-Labolle, Tyler Johnson, Likith Gadde and Ramin Bostanabad*  
   Computer Methods in Applied Mechanics and Engineering, 2023
