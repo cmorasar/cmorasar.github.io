@@ -15,22 +15,22 @@ author_profile: true
   **_Carlos Mora_***, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad*
   arXiv, 2024
 - **[Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes](https://arxiv.org/abs/2408.03490)**  
-  *Amin Yousefpour, Shirin Hosseinmardi, **_Carlos Mora_** and Ramin Bostanabad*  
+  *Amin Yousefpour, Shirin Hosseinmardi, ***Carlos Mora*** and Ramin Bostanabad*  
   arXiv, 2024
 - **[GP+: A Python library for kernel-based learning via Gaussian processes](https://www.sciencedirect.com/science/article/pii/S0965997824000930)**  
-  *Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, **_Carlos Mora_** and Ramin Bostanabad*  
+  *Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, ***Carlos Mora*** and Ramin Bostanabad*  
   Advances in Engineering Software, 2024
 - **[Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations](https://arxiv.org/abs/2401.03492)**  
-  **_Carlos Mora_***, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
+  ***Carlos Mora***, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
   arXiv, 2024
 - **[Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets](https://www.sciencedirect.com/science/article/pii/S0045782523003316)**  
-  **_Carlos Mora_***, Jonathan Tammer Eweis-Labolle, Tyler Johnson, Likith Gadde and Ramin Bostanabad*  
+  ***Carlos Mora***, Jonathan Tammer Eweis-Labolle, Tyler Johnson, Likith Gadde and Ramin Bostanabad*  
   Computer Methods in Applied Mechanics and Engineering, 2023
 - **[Data-Driven Calibration of Multifidelity Multiscale Fracture Models Via Latent Map Gaussian Process](https://asmedigitalcollection.asme.org/mechanicaldesign/article/145/1/011705/1147508/Data-Driven-Calibration-of-Multifidelity)**  
-  *Shiguang Deng, **_Carlos Mora_**, Diran Apelian and Ramin Bostanabad*  
+  *Shiguang Deng, ***Carlos Mora***, Diran Apelian and Ramin Bostanabad*  
   Journal of Mechanical Design, 2023
 - **[Multi-Fidelity Reduced-Order Models for Multiscale Damage Analyses With Automatic Calibration](https://solarenergyengineering.asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86236/V03BT03A031/1150433)**  
-  *Shiguang Deng, **_Carlos Mora_**, Diran Apelian, Ramin Bostanabad*  
+  *Shiguang Deng, ***Carlos Mora***, Diran Apelian, Ramin Bostanabad*  
   International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2022
 
 # Talks
