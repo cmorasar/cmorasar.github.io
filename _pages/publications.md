@@ -11,6 +11,12 @@ author_profile: true
   <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+- **[Operator Learning with Gaussian Processes](https://arxiv.org/abs/2409.04538)**  
+  *Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad*  
+  arXiv, 2024
+- **[Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes](https://arxiv.org/abs/2408.03490)**  
+  *Amin Yousefpour, Shirin Hosseinmardi, Carlos Mora and Ramin Bostanabad*  
+  arXiv, 2024
 - **[GP+: A Python library for kernel-based learning via Gaussian processes](https://www.sciencedirect.com/science/article/pii/S0965997824000930)**  
   *Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, Carlos Mora and Ramin Bostanabad*  
   Advances in Engineering Software, 2024
