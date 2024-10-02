@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : #"Carlos Mora Sardiña"
   pronouns         : # example: "she/her"  
-  bio              : "I am a PhD student at the University of California, Irvine. My research interests are scientific machine learning, data fusion and uncertainty quantification."
+  bio              : "I am a PhD student at the University of California, Irvine. My research interests are machine learning, data fusion and uncertainty quantification."
   location         : "Irvine, CA, USA"
   employer         : "University of California, Irvine"
   uri              : # URL
