@@ -12,6 +12,7 @@ I am a fourth-year PhD student at the University of California, Irvine, speciali
 Prior to my PhD, I graduated in aerospace engineering with honors from the Polytechnic University of Catalonia. 
 
 ## Recent news
+- October 2024: I gave a [talk](https://www.youtube.com/watch?v=yFAxA6vPECA&t=3s) at the CRUNCH seminar on neural operators and Gaussian Processes for operator learning. 
 - September 2024: new preprint [available](https://arxiv.org/abs/2409.04538) on a general framework for operator learning via Gaussian Processes.
 - August 2024: new preprint [available](https://arxiv.org/abs/2401.03492) where we develop a meshfree topology optimization method with physics-informed Gaussian Processes.
 - July 2024: the paper _GP+: A Python library for kernel-based learning via Gaussian processes_ is now [available](https://www.sciencedirect.com/science/article/pii/S0965997824000930) in Advances in Engineering Software.
