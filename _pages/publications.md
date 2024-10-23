@@ -12,10 +12,10 @@ author_profile: true
 {% endif %}
 
 - **[A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations](https://link.springer.com/article/10.1007/s00466-024-02559-0)**  
-  ***Carlos Mora***, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
+  ***Carlos Mora** *, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
   Computational Mechanics, 2024
 - **[Operator Learning with Gaussian Processes](https://arxiv.org/abs/2409.04538)**  
-  ***Carlos Mora****, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad*
+  ***Carlos Mora*** *, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad*
   arXiv, 2024
 - **[Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes](https://arxiv.org/abs/2408.03490)**  
   *Amin Yousefpour, Shirin Hosseinmardi, **Carlos Mora** and Ramin Bostanabad*  
@@ -24,10 +24,10 @@ author_profile: true
   *Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, **Carlos Mora** and Ramin Bostanabad*  
   Advances in Engineering Software, 2024
 - **[Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations](https://arxiv.org/abs/2401.03492)**  
-  ***Carlos Mora***, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
+  ***Carlos Mora** *, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
   arXiv, 2024
 - **[Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets](https://www.sciencedirect.com/science/article/pii/S0045782523003316)**  
-  ***Carlos Mora***, Jonathan Tammer Eweis-Labolle, Tyler Johnson, Likith Gadde and Ramin Bostanabad*  
+  ***Carlos Mora** *, Jonathan Tammer Eweis-Labolle, Tyler Johnson, Likith Gadde and Ramin Bostanabad*  
   Computer Methods in Applied Mechanics and Engineering, 2023
 - **[Data-Driven Calibration of Multifidelity Multiscale Fracture Models Via Latent Map Gaussian Process](https://asmedigitalcollection.asme.org/mechanicaldesign/article/145/1/011705/1147508/Data-Driven-Calibration-of-Multifidelity)**  
   *Shiguang Deng, **Carlos Mora**, Diran Apelian and Ramin Bostanabad*  
