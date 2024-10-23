@@ -11,6 +11,9 @@ author_profile: true
   <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+- **[A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations](https://link.springer.com/article/10.1007/s00466-024-02559-0)**  
+  ***Carlos Mora***, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad*  
+  Computational Mechanics, 2024
 - **[Operator Learning with Gaussian Processes](https://arxiv.org/abs/2409.04538)**  
   ***Carlos Mora****, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad*
   arXiv, 2024
@@ -34,6 +37,8 @@ author_profile: true
   International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2022
 
 # Talks
+- **A Gaussian Process Framework for PDE Solving and Operator Learning** [video](https://www.youtube.com/watch?v=yFAxA6vPECA&t=1s)
+  CRUNCH Seminar, 2024
 - **Operator learning via neural networks with kernel-weighted corrective residuals**  
   EMI/PMC, 2024
 - **Probabilistic Neural Data Fusion for Learning from an Arbitrary Number of Multi-fidelity Data Sets**  
