@@ -12,6 +12,7 @@ I am a fourth-year PhD student at the University of California, Irvine, speciali
 Prior to my PhD, I graduated in aerospace engineering with honors from the Polytechnic University of Catalonia. 
 
 ## Recent news
+- October 2024: my paper _A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations_ has been [published](https://link.springer.com/article/10.1007/s00466-024-02559-0) in Computational Mechanics.
 - October 2024: I gave a [talk](https://www.youtube.com/watch?v=yFAxA6vPECA&t=3s) at the CRUNCH seminar on neural operators and Gaussian Processes for operator learning. 
 - September 2024: new preprint [available](https://arxiv.org/abs/2409.04538) on a general framework for operator learning via Gaussian Processes.
 - August 2024: new preprint [available](https://arxiv.org/abs/2401.03492) where we develop a meshfree topology optimization method with physics-informed Gaussian Processes.
