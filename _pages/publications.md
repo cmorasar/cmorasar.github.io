@@ -37,7 +37,7 @@ author_profile: true
   International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2022
 
 # Talks
-- **A Gaussian Process Framework for PDE Solving and Operator Learning** [video](https://www.youtube.com/watch?v=yFAxA6vPECA&t=1s)
+- **A Gaussian Process Framework for PDE Solving and Operator Learning** [[video](https://www.youtube.com/watch?v=yFAxA6vPECA&t=1s)]
   CRUNCH Seminar, 2024
 - **Operator learning via neural networks with kernel-weighted corrective residuals**  
   EMI/PMC, 2024
