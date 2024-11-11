@@ -21,7 +21,7 @@ repository               : "cmorasar/cmorasar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "profile_new.png"
   name             : #"Carlos Mora Sardiña"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD student at the University of California, Irvine. My research interests are machine learning, data fusion and uncertainty quantification."
