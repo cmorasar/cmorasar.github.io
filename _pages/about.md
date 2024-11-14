@@ -18,12 +18,13 @@ Prior to my PhD, I graduated in aerospace engineering with honors from the Polyt
 - August 2024: new preprint [available](https://arxiv.org/abs/2401.03492) where we develop a meshfree topology optimization method with physics-informed Gaussian Processes.
 - July 2024: the paper _GP+: A Python library for kernel-based learning via Gaussian processes_ is now [available](https://www.sciencedirect.com/science/article/pii/S0965997824000930) in Advances in Engineering Software.
 - May 2024: I presented my research on _Operator learning via neural networks with kernel-weighted corrective residuals_ at EMI/PMC 2024.
+<!--
 - January 2024: new preprint [available](https://arxiv.org/abs/2401.03492) on a novel machine learning method for PDE solving.
 - December 2023: new preprint [available](https://arxiv.org/abs/2312.07694) on _GP+: A Python Library for Kernel-based learning via Gaussian Processes_.
 - October 2023: my paper _Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets_ has been [published](https://www.sciencedirect.com/science/article/pii/S0045782523003316) in Computer Methods in Applied Mechanics and Engineering.
 - July 2023: I presented my work on _Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks_ at the 17th U.S. National Congress on Computational Mechanics.
 - July 2023: I gave a talk on _Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets_ at the Sandia Machine Learning and Deep Learning Workshop.
-
+-->
 <!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
