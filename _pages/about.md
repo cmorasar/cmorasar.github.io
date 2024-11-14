@@ -18,7 +18,10 @@ Prior to my PhD, I graduated in aerospace engineering with honors from the Polyt
 - August 2024: new preprint [available](https://arxiv.org/abs/2401.03492) where we develop a meshfree topology optimization method with physics-informed Gaussian Processes.
 - July 2024: the paper _GP+: A Python library for kernel-based learning via Gaussian processes_ is now [available](https://www.sciencedirect.com/science/article/pii/S0965997824000930) in Advances in Engineering Software.
 - May 2024: I presented my research on _Operator learning via neural networks with kernel-weighted corrective residuals_ at EMI/PMC 2024.
-<!-- January 2024: new preprint [available](https://arxiv.org/abs/2401.03492) on a novel machine learning method for PDE solving.
+
+<!--
+
+ January 2024: new preprint [available](https://arxiv.org/abs/2401.03492) on a novel machine learning method for PDE solving.
 - December 2023: new preprint [available](https://arxiv.org/abs/2312.07694) on _GP+: A Python Library for Kernel-based learning via Gaussian Processes_.
 - October 2023: my paper _Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets_ has been [published](https://www.sciencedirect.com/science/article/pii/S0045782523003316) in Computer Methods in Applied Mechanics and Engineering.
 - July 2023: I presented my work on _Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks_ at the 17th U.S. National Congress on Computational Mechanics.
