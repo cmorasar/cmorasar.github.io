@@ -37,7 +37,7 @@ author_profile: true
   International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2022
 
 # Talks
-- **A Gaussian process framework for operator learning**
+- **A Gaussian process framework for operator learning**  
   IMECE, 2024
 - **A Gaussian Process Framework for PDE Solving and Operator Learning** ([video](https://www.youtube.com/watch?v=yFAxA6vPECA&t=1s))  
   CRUNCH Seminar, 2024
