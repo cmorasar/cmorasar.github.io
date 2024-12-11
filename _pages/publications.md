@@ -12,13 +12,13 @@ author_profile: true
 {% endif %}
 
 - **[Operator Learning with Gaussian Processes](https://www.sciencedirect.com/science/article/pii/S0045782524008351)**  
-  **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad
+  **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad  
   Computer Methods in Applied Mechanics and Engineering, 2025
 - **[A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations](https://link.springer.com/article/10.1007/s00466-024-02559-0)**  
-  **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad 
+  **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad  
   Computational Mechanics, 2024
 - **[Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes](https://arxiv.org/abs/2408.03490)**  
-  Amin Yousefpour, Shirin Hosseinmardi, **Carlos Mora** and Ramin Bostanabad
+  Amin Yousefpour, Shirin Hosseinmardi, **Carlos Mora** and Ramin Bostanabad  
   arXiv, 2024
 - **[GP+: A Python library for kernel-based learning via Gaussian processes](https://www.sciencedirect.com/science/article/pii/S0965997824000930)**  
   Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, **Carlos Mora** and Ramin Bostanabad  
