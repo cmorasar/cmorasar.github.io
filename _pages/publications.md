@@ -11,7 +11,7 @@ author_profile: true
   <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-  - **[SEEK: Self-adaptive Explainable Kernel For Nonstationary Gaussian Processes](https://arxiv.org/abs/2503.14785)**  
+- **[SEEK: Self-adaptive Explainable Kernel For Nonstationary Gaussian Processes](https://arxiv.org/abs/2503.14785)**  
   Nima Negarandeh*, **Carlos Mora***, Ramin Bostanabad
   *Equal contribution between first two authors*
   arXiv, 2025
@@ -20,7 +20,7 @@ author_profile: true
   **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad  
   Computer Methods in Applied Mechanics and Engineering, 2025
 
-  - **[Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes](https://www.sciencedirect.com/science/article/abs/pii/S0045782524009526)**  
+- **[Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes](https://www.sciencedirect.com/science/article/abs/pii/S0045782524009526)**  
   Amin Yousefpour, Shirin Hosseinmardi, **Carlos Mora** and Ramin Bostanabad  
   Computer Methods in Applied Mechanics and Engineering, 2025
 
@@ -32,7 +32,7 @@ author_profile: true
   Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, **Carlos Mora** and Ramin Bostanabad  
   Advances in Engineering Software, 2024
 
-  - **[Integrating Kernel Methods and Deep Neural Networks for Solving PDEs](https://openreview.net/pdf?id=5bRRVmYhVS)**  
+- **[Integrating Kernel Methods and Deep Neural Networks for Solving PDEs](https://openreview.net/pdf?id=5bRRVmYhVS)**  
   **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad  
   ICLR (Workshop on AI4DifferentialEquations In Science), 2024
 
