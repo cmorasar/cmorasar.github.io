@@ -12,7 +12,7 @@ I am a PhD candidate at the University of California, Irvine, specializing in co
 Prior to my PhD, I graduated in aerospace engineering with honors from the Polytechnic University of Catalonia. 
 
 ## Recent news
-- August 2025: [SEEK](https://arxiv.org/abs/2503.14785) has received a *Paper with Distinction* at IDETC-CIE 2025!
+- August 2025: [SEEK](https://arxiv.org/abs/2503.14785) received a *Paper with Distinction* at IDETC-CIE 2025!
 - June 2025: I started a machine learning engineering internship at Patreon!
 - March 2025: released a new preprint on [SEEK](https://arxiv.org/abs/2503.14785), a novel framework for nonstationary kernel learning in Gaussian Processes.
 - December 2024: I successfully defended my candidacy exam! My PhD thesis, titled _Integrating Deep Learning with Gaussian Processes for Scientific Computing_, will explore innovative ways to combine these machine learning methods for advancing scientific computing. 
