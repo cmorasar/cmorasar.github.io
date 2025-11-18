@@ -18,7 +18,7 @@ I am highly motivated to create real-world impact through machine learning solut
 - August 2025: [SEEK](https://arxiv.org/abs/2503.14785) received a *Paper with Distinction* at IDETC-CIE 2025!
 - June 2025: I started a machine learning engineering internship at Patreon!
 - March 2025: released a new preprint on [SEEK](https://arxiv.org/abs/2503.14785), a novel framework for nonstationary kernel learning in Gaussian Processes.
-- December 2024: I successfully defended my candidacy exam! My PhD thesis, titled _Integrating Deep Learning with Gaussian Processes for Scientific Computing_, will explore innovative ways to combine these machine learning methods for advancing scientific computing. 
+- December 2024: I successfully defended my candidacy exam! My PhD thesis, titled _Hybrid Gaussian Process and Deep Learning Frameworks for Computational Science and Engineering_, will explore innovative ways to combine these machine learning methods for advancing scientific computing. 
 - November 2024: my paper _Operator learning with Gaussian processes_ is now [available](https://www.sciencedirect.com/science/article/pii/S0045782524008351) in Computer Methods in Applied Mechanics and Engineering.
 - October 2024: my paper _A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations_ has been [published](https://link.springer.com/article/10.1007/s00466-024-02559-0) in Computational Mechanics.
 - October 2024: I gave a [talk](https://www.youtube.com/watch?v=yFAxA6vPECA&t=3s) at the CRUNCH seminar on neural operators and Gaussian Processes for operator learning. 
