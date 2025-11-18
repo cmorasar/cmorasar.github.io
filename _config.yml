@@ -24,7 +24,7 @@ author:
   avatar           : "profile_new.png"
   name             : #"Carlos Mora Sardiña"
   pronouns         : # example: "she/her"  
-  bio              : "I hold a PhD from the University of California, Irvine. My research focuses on machine learning, data fusion and uncertainty quantification, with applications in computational science and engineering."
+  bio              : "I hold a PhD from the University of California, Irvine, where I conducted research at the intersection of machine learning, data fusion and uncertainty quantification, with applications in computational science and engineering."
   location         : "Irvine, CA, USA"
   employer         : "University of California, Irvine"
   uri              : # URL

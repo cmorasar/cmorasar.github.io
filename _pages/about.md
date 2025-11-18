@@ -20,8 +20,8 @@ I am highly motivated to create real-world impact through machine learning solut
 - March 2025: released a new preprint on [SEEK](https://arxiv.org/abs/2503.14785), a novel framework for nonstationary kernel learning in Gaussian Processes.
 - December 2024: I successfully defended my candidacy exam! My PhD thesis, titled _Hybrid Gaussian Process and Deep Learning Frameworks for Computational Science and Engineering_, will explore innovative ways to combine these machine learning methods for advancing scientific computing. 
 - November 2024: my paper _Operator learning with Gaussian processes_ is now [available](https://www.sciencedirect.com/science/article/pii/S0045782524008351) in Computer Methods in Applied Mechanics and Engineering.
-- October 2024: my paper _A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations_ has been [published](https://link.springer.com/article/10.1007/s00466-024-02559-0) in Computational Mechanics.
-- October 2024: I gave a [talk](https://www.youtube.com/watch?v=yFAxA6vPECA&t=3s) at the CRUNCH seminar on neural operators and Gaussian Processes for operator learning. 
+<!-- - October 2024: my paper _A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations_ has been [published](https://link.springer.com/article/10.1007/s00466-024-02559-0) in Computational Mechanics.
+- October 2024: I gave a [talk](https://www.youtube.com/watch?v=yFAxA6vPECA&t=3s) at the CRUNCH seminar on neural operators and Gaussian Processes for operator learning.  -->
 
 <!-- - September 2024: new preprint [available](https://arxiv.org/abs/2409.04538) on a general framework for operator learning via Gaussian Processes.
 - August 2024: new preprint [available](https://arxiv.org/abs/2401.03492) where we develop a meshfree topology optimization method with physics-informed Gaussian Processes. -->
