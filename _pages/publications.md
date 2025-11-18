@@ -13,8 +13,9 @@ author_profile: true
 
 - **[SEEK: Self-adaptive Explainable Kernel For Nonstationary Gaussian Processes](https://arxiv.org/abs/2503.14785)**  
   Nima Negarandeh\*, **Carlos Mora**\*, Ramin Bostanabad  
-  \**Equal contribution*  
-  arXiv, 2025
+  \**Equal contribution*
+  International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2025
+  ✨**Paper with Distinction Award**
 - **[Operator Learning with Gaussian Processes](https://www.sciencedirect.com/science/article/pii/S0045782524008351)**  
   **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad  
   Computer Methods in Applied Mechanics and Engineering, 2025
