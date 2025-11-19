@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I hold a PhD from the University of California, Irvine, where I developed probabilistic machine learning methods for modeling complex systems across a wide range of scientific and engineering domains. During my graduate studies, I was supported with the Balsells fellowship. You can find my publications [here](https://cmorasar.github.io/publications-talks/). 
+I hold a PhD from the University of California, Irvine, where I developed probabilistic machine learning methods for modeling complex systems across a wide range of scientific and engineering domains. For part of my doctoral studies, I was supported with the Balsells fellowship. You can find my publications [here](https://cmorasar.github.io/publications-talks/). 
+
+During my PhD, I also completed an internship at Patreon as a Machine Learning Engineer, where I built a large-scale recommendation system.
 
 Prior to my PhD, I graduated with honors in aerospace engineering from the Polytechnic University of Catalonia. 
 
@@ -16,8 +18,8 @@ I am highly motivated to create real-world impact through machine learning solut
 ## Recent news
 - November 2025: I successfully defended my PhD dissertation, titled _Hybrid Gaussian Process and Deep Learning Frameworks for Computational Science and Engineering_. This work introduces novel hybrid models that combine the complementary strengths of GPs and DL architectures for (1) solving problems involving PDEs, (2) learning operators, and (3) modeling nonstationary functions. 
 - August 2025: [SEEK](https://arxiv.org/abs/2503.14785) received a *Paper with Distinction* at IDETC-CIE 2025!
-- June 2025: I started a machine learning engineering internship at Patreon!
-- March 2025: released a new preprint on [SEEK](https://arxiv.org/abs/2503.14785), a novel framework for nonstationary kernel learning in Gaussian Processes.
+- June 2025: I started a Machine Learning Engineering internship at Patreon!
+- March 2025: Released a new preprint on [SEEK](https://arxiv.org/abs/2503.14785), a novel framework for nonstationary kernel learning in Gaussian Processes.
 - December 2024: I successfully defended my PhD candidacy exam! 
 - November 2024: my paper _Operator learning with Gaussian processes_ is now [available](https://www.sciencedirect.com/science/article/pii/S0045782524008351) in Computer Methods in Applied Mechanics and Engineering. 
 
