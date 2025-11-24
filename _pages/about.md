@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I hold a PhD from the University of California, Irvine, where I developed probabilistic machine learning methods for modeling complex systems across a wide range of scientific and engineering domains. My doctoral research was supported with the [Balsells](https://balsells.eng.uci.edu/) fellowship. My publications are available [here](https://cmorasar.github.io/publications-talks/). 
+I hold a PhD from the University of California, Irvine, where I developed probabilistic machine learning methods for modeling complex systems across a wide range of scientific and engineering domains. My doctoral research was supported by the [Balsells](https://balsells.eng.uci.edu/) fellowship. You can find my publications [here](https://cmorasar.github.io/publications-talks/). 
 
 In Summer 2025, I worked at Patreon as a Machine Learning Engineer intern, where I developed a large-scale recommendation system to improve creator discovery.
 
