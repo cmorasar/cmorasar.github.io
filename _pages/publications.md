@@ -34,8 +34,9 @@ author_profile: true
   **Carlos Mora**, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad  
   arXiv, 2024
 - **[Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets](https://www.sciencedirect.com/science/article/pii/S0045782523003316)**  
-  **Carlos Mora**, Jonathan Tammer Eweis-Labolle, Tyler Johnson, Likith Gadde and Ramin Bostanabad  
-  Computer Methods in Applied Mechanics and Engineering, 2023
+  **Carlos Mora**\*, Jonathan Tammer Eweis-Labolle\*, Tyler Johnson, Likith Gadde and Ramin Bostanabad  
+  \**Equal contribution*  
+  Computer Methods in Applied Mechanics and Engineering, 2023  
 - **[Data-Driven Calibration of Multifidelity Multiscale Fracture Models Via Latent Map Gaussian Process](https://asmedigitalcollection.asme.org/mechanicaldesign/article/145/1/011705/1147508/Data-Driven-Calibration-of-Multifidelity)**  
   Shiguang Deng, **Carlos Mora**, Diran Apelian and Ramin Bostanabad  
   Journal of Mechanical Design, 2023
