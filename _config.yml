@@ -24,9 +24,9 @@ author:
   avatar           : "profile_new.png"
   name             : #"Carlos Mora Sardiña"
   pronouns         : # example: "she/her"  
-  bio              : "I hold a PhD from the University of California, Irvine, where I conducted research at the intersection of machine learning, data fusion and uncertainty quantification, with applications in computational science and engineering."
-  location         : "Irvine, CA, USA"
-  employer         : "University of California, Irvine"
+  bio              : "I am a Machine Learning Engineer at Patreon, working on large-scale recommendation systems. I earned a PhD from the University of California, Irvine, where I researched machine learning, data fusion, and uncertainty quantification for computational science and engineering."
+  location         : "San Francisco, CA, USA"
+  employer         : "Patreon"
   uri              : # URL
   email            : "98carlosmora@gmail.com" 
 
