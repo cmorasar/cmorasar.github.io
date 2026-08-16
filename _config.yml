@@ -24,7 +24,7 @@ author:
   avatar           : "profile_new.png"
   name             : #"Carlos Mora Sardiña"
   pronouns         : # example: "she/her"  
-  bio              : "I am a Machine Learning Engineer at Patreon, working on large-scale recommendation systems. I earned a PhD from the University of California, Irvine, where I researched machine learning, data fusion, and uncertainty quantification for computational science and engineering."
+  bio              : "Machine Learning Engineer at Patreon, working on large-scale recommendation systems. PhD from UC Irvine in probabilistic machine learning for computational science and engineering."
   location         : "San Francisco, CA, USA"
   employer         : "Patreon"
   uri              : # URL

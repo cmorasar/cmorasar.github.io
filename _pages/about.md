@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Machine Learning Engineer at Patreon, working on large-scale recommendation systems focused on relevance and discovery.
 
-I earned my PhD at the University of California, Irvine, where I developed probabilistic machine learning methods for modeling complex systems across diverse scientific and engineering domains. My doctoral research was supported by the [Balsells](https://balsells.eng.uci.edu/) fellowship. You can find my publications [here](/publications-talks/). 
+I earned my PhD at the University of California, Irvine, where I developed probabilistic machine learning methods that combine data fusion, uncertainty quantification, and physics-informed learning to model complex systems in science and engineering. My doctoral research was supported by the [Balsells](https://balsells.eng.uci.edu/) fellowship. You can find my publications [here](/publications-talks/). 
 
 <!-- In Summer 2025, I worked at Patreon as a Machine Learning Engineer intern, where I developed a large-scale recommendation system to improve creator discovery. -->
 
