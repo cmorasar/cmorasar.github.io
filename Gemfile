@@ -1,28 +1,19 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+# The github-pages gem pins Jekyll and the plugin set to exactly what
+# GitHub Pages runs in production, so a local build matches the deployed site.
+# Run Jekyll through Bundler so this version is the one used:
 #
-#     bundle exec jekyll serve
+#     bundle exec jekyll serve --config _config.yml,_config.dev.yml
 #
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-
 gem "github-pages", group: :jekyll_plugins
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
+# Which plugins are actually enabled is controlled by `plugins:` in _config.yml.
+# They ship as dependencies of github-pages, so they are not repeated here.
 
-# gem "jekyll"
-
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-# If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
-  gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
-  gem "webrick", "~> 1.8"
+  gem "webrick", "~> 1.8" # no longer bundled with Ruby 3.0+
 end
+
+# Windows-only: lets Jekyll watch the filesystem for changes.
+gem "wdm", "~> 0.2" if Gem.win_platform?

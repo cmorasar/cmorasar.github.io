@@ -56,9 +56,4 @@ author_profile: true
 - **Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks**  
   17th U. S. National Congress on Computational Mechanics, 2023
 
-<!-- {% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
 
