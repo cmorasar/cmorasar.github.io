@@ -1,11 +1,11 @@
 ---
 layout: archive
-#title: ""
+title: "Publications & Talks"
 permalink: /publications-talks/
 author_profile: true
 ---
 
-<h1>Publications</h1>
+## Publications
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
@@ -44,7 +44,7 @@ author_profile: true
   Shiguang Deng, **Carlos Mora**, Diran Apelian, Ramin Bostanabad  
   International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2022
 
-# Talks
+## Talks
 - **A Gaussian process framework for operator learning**  
   IMECE, 2024
 - **A Gaussian Process Framework for PDE Solving and Operator Learning** ([video](https://www.youtube.com/watch?v=yFAxA6vPECA&t=1s))  
@@ -54,6 +54,6 @@ author_profile: true
 - **Probabilistic Neural Data Fusion for Learning from an Arbitrary Number of Multi-fidelity Data Sets**  
   Sandia Machine Learning and Deep Learning Workshop, 2023
 - **Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks**  
-  17th U. S. National Congress on Computational Mechanics, 2023
+  17th U.S. National Congress on Computational Mechanics, 2023
 
 
