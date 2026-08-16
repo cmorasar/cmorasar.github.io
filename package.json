@@ -1,22 +1,20 @@
 {
-  "name": "minimal-mistakes",
-  "version": "3.4.2",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "name": "cmorasar.github.io",
+  "version": "1.0.0",
+  "description": "Build scripts for the JavaScript bundle used by cmorasar.github.io",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git+https://github.com/cmorasar/cmorasar.github.io.git"
   },
   "keywords": [
     "jekyll",
-    "theme",
-    "minimal"
+    "academic",
+    "personal-website"
   ],
-  "author": "Michael Rose",
+  "author": "Carlos Mora Sardiña",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://cmorasar.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },
