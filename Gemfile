@@ -10,3 +10,6 @@ group :jekyll_plugins do
 end
 
 gem "wdm", "~> 0.2" if Gem.win_platform? # filesystem watching on Windows
+
+# Windows has no system timezone database; Linux, which GitHub Pages runs, does.
+gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]
