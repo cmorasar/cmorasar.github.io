@@ -465,12 +465,12 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
+  color: var(--text-muted);
   text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
+  color: var(--text-muted);
 
   ol, li, p {
     margin-bottom: 0;
