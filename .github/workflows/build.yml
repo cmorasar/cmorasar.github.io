@@ -1,8 +1,5 @@
+# Catches build failures on pull requests, before master deploys them.
 name: Build
-
-# Mirrors the build GitHub Pages runs when master is pushed, so a red check
-# here means the real deploy would have failed too. It verifies that the site
-# compiles — not that the pages render correctly.
 
 on:
   pull_request:
