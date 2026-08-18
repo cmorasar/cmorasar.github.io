@@ -1,0 +1,23 @@
+# Talks, newest first. Same grouping-by-year behaviour as publications.
+
+- title: "A Gaussian process framework for operator learning"
+  venue: "IMECE"
+  year: 2024
+
+- title: "A Gaussian Process Framework for PDE Solving and Operator Learning"
+  venue: "CRUNCH Seminar"
+  year: 2024
+  links:
+    - { label: "Video", url: "https://www.youtube.com/watch?v=yFAxA6vPECA&t=1s" }
+
+- title: "Operator learning via neural networks with kernel-weighted corrective residuals"
+  venue: "EMI/PMC"
+  year: 2024
+
+- title: "Probabilistic Neural Data Fusion for Learning from an Arbitrary Number of Multi-fidelity Data Sets"
+  venue: "Sandia Machine Learning and Deep Learning Workshop"
+  year: 2023
+
+- title: "Data Fusion Under Multiple Uncertainty Sources via Multi-Fidelity Bayesian Networks"
+  venue: "17th U.S. National Congress on Computational Mechanics"
+  year: 2023
