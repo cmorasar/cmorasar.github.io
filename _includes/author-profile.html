@@ -17,7 +17,7 @@
   {% comment %} The name is not shown here; the masthead carries it on every page. {% endcomment %}
   <div class="author__content">
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<div class="author__bio">{{ author.bio | markdownify }}</div>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">

@@ -1,5 +1,17 @@
-# Ignore the contents of the _site directory
+# Jekyll build output and caches
 _site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
 
-# Ignore the Gemfile that is generated
+# Bundler: resolved lockfile and locally installed gems
 Gemfile.lock
+.bundle/
+vendor/
+
+# Node, if the JS bundle is ever rebuilt
+node_modules/
+
+# OS cruft
+.DS_Store
+Thumbs.db

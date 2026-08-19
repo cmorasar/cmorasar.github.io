@@ -11,6 +11,7 @@
 */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "tokens";    // CSS custom properties; must precede variables
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -38,4 +39,5 @@
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
+@import "editorial"; // design layer; last so it wins on equal specificity
 @import "print";

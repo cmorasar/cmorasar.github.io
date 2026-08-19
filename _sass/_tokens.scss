@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Design tokens
+   --------------------------------------------------------------------------
+   Colour is CSS custom properties, not Sass variables, because Sass resolves
+   at build time and cannot respond to prefers-color-scheme.
+
+   Three states, since most visitors never touch the toggle and so carry no
+   data-theme attribute:
+
+     :root                        light
+     @media dark + :not([light])  dark, unless light was chosen explicitly
+     :root[data-theme="dark"]     dark, chosen over a light OS
+
+   A new colour must be added to all three, or it keeps its light value in
+   dark mode.
+   ========================================================================== */
+
+@mixin theme-light {
+  /* Surfaces */
+  --bg:            #fbfaf7;
+  --surface:       #ffffff;
+  --code-bg:       #f3f0ea;
+  --surface-alt:   #f3f0ea; /* footer slab */
+
+  /* Text, strongest to faintest */
+  --text:          #23201b;
+  --text-dim:      #4a4439;
+  --text-muted:    #6e675c;
+  --text-faint:    #6e675c;
+  --text-fainter:  #a79e8e; /* disabled controls only; WCAG exempts these */
+
+  /* Lines */
+  --border:        #e2ded4;
+  --border-strong: #cfc9bb;
+
+  /* Masthead */
+  --primary:       #46413a;
+  --primary-hover: #23201b;
+  --primary-50:    #cfc9bb;
+  --nav-underline: #8c4a1f;
+  --nav-hover-bg:  #f2eee6;
+
+  /* Links */
+  --link:          #8c4a1f;
+  --link-hover:    #6b3714;
+  --link-visited:  #7a5233;
+
+  --sel-bg:        #8c4a1f;
+  --sel-text:      #fbfaf7;
+  --shadow:        rgba(35, 32, 27, 0.15);
+
+}
+
+:root { @include theme-light; }
+
+/* Applied by both dark selectors below. */
+@mixin theme-dark {
+  --bg:            #17150f;
+  --surface:       #201d16;
+  --code-bg:       #201d16;
+  --surface-alt:   #1c1913; /* footer slab */
+
+  --text:          #ede8de;
+  --text-dim:      #c7c0b2;
+  --text-muted:    #a79e8e;
+  --text-faint:    #a79e8e;
+  --text-fainter:  #7d7666; /* disabled controls only; WCAG exempts these */
+
+  --border:        #2e2a21;
+  --border-strong: #443e32;
+
+  --primary:       #c9c2b4;
+  --primary-hover: #fffdf8;
+  --primary-50:    #443e32;
+  --nav-underline: #d98b5a;
+  --nav-hover-bg:  #241f18;
+
+  /* Lightened; the light-mode rust is unreadable on this ground. */
+  --link:          #d98b5a;
+  --link-hover:    #eda97c;
+  --link-visited:  #c79070;
+
+  --sel-bg:        #8c4a1f;
+  --sel-text:      #fffdf8;
+  --shadow:        rgba(0, 0, 0, 0.6);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include theme-dark; }
+}
+
+:root[data-theme="dark"] { @include theme-dark; }
+
+/* Print forces light: browsers drop the dark ground but keep the pale text.
+   Selector weight matches [data-theme] so it overrides a pinned choice. */
+@media print {
+  :root,
+  :root[data-theme="dark"],
+  :root[data-theme="light"] { @include theme-light; }
+}

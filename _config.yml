@@ -21,10 +21,15 @@ repository               : "cmorasar/cmorasar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_new.png"
+  avatar           : "profile.jpg"
   name             : "Carlos Mora Sardiña"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Engineer at Patreon, working on large-scale recommendation systems. PhD from UC Irvine in probabilistic machine learning for computational science and engineering."
+  bio              : |
+    Machine Learning Engineer at Patreon, working on large-scale recommendation
+    systems.
+
+    PhD from UC Irvine in probabilistic machine learning for computational
+    science and engineering.
   location         : "San Francisco, CA, USA"
   employer         : "Patreon"
   uri              : # URL
@@ -96,7 +101,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "profile_new.png" # filename only; /images/ is prepended
+og_image                 : "profile.jpg" # filename only; /images/ is prepended
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

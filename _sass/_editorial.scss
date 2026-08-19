@@ -1,0 +1,390 @@
+/* ==========================================================================
+   Editorial
+   --------------------------------------------------------------------------
+   The typographic layer that separates this site from the stock theme.
+
+   One typeface throughout, varied by size, weight, case and tracking rather
+   than by mixing families.
+
+   Colour lives in _tokens.scss. Imported last so it wins on equal
+   specificity; match the theme's selector weight rather than escalating.
+   ========================================================================== */
+
+/*
+   Typeface
+   --------------------------------------------------------------------------
+   Source Serif 4, SIL Open Font License 1.1, which permits self-hosting.
+   Served from this repo so there is no third-party request at load.
+   unicode-range confines it to Latin; anything else falls back to Georgia.
+   -------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("../webfonts/source-serif-4-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("../webfonts/source-serif-4-latin-italic.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+   Masthead
+   --------------------------------------------------------------------------
+   ------------------------------------------------------------------------ */
+
+.masthead__inner-wrap {
+  position: relative;
+  font-family: $serif;
+}
+
+.greedy-nav {
+  a {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  /* The name is a name, not a label. */
+  .visible-links li:first-child a,
+  .hidden-links li:first-child a {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+    text-transform: none;
+  }
+}
+
+/*
+   Headings
+   --------------------------------------------------------------------------
+   Tracking tightens as size grows; large type reads cramped sooner. */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h1 { letter-spacing: -0.022em; }
+h2 { letter-spacing: -0.016em; }
+
+.page__title {
+  font-weight: 600;
+  letter-spacing: -0.024em;
+}
+
+/*
+   Body copy
+   -------------------------------------------------------------------------- */
+
+.page__content {
+  p, li {
+    line-height: 1.7;
+  }
+
+  /* Section headings need air to read as a break, not another paragraph. */
+  h2 {
+    margin-top: 2em;
+  }
+}
+
+/*
+   Sidebar
+   -------------------------------------------------------------------------- */
+
+.author__urls {
+  /* The icon and its trailing space sit inside the anchor, and a descendant
+     cannot cancel an ancestor's underline. Colour carries the hover. */
+  a {
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+
+    &:hover {
+      color: var(--link-hover);
+      text-decoration: none;
+    }
+  }
+}
+
+.author__urls-wrapper {
+  font-family: $serif;
+}
+
+.author__urls-wrapper button {
+  font-family: $serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/*
+   Footer
+   -------------------------------------------------------------------------- */
+
+.page__footer {
+  font-family: $serif;
+  font-size: 0.82rem;
+}
+
+.page__footer-follow li {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/*
+   Theme toggle
+   --------------------------------------------------------------------------
+   Outside .greedy-nav so the overflow script cannot sweep it into the
+   hidden-links menu; the nav is given room on the right to match. */
+
+.greedy-nav {
+  margin-right: 2.5rem;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--primary);
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+  &:hover {
+    color: var(--link);
+    border-color: var(--link);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  @include breakpoint($x-large) {
+    right: calc((100% - #{$content-max}) / 2 + 1em);
+  }
+}
+
+/* Glyph follows the same three states as the palette. */
+.theme-toggle .icon-sun  { display: none; }
+.theme-toggle .icon-moon { display: block; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    .theme-toggle .icon-sun  { display: block; }
+    .theme-toggle .icon-moon { display: none; }
+  }
+}
+
+:root[data-theme="dark"] {
+  .theme-toggle .icon-sun  { display: block; }
+  .theme-toggle .icon-moon { display: none; }
+}
+
+:root[data-theme="light"] {
+  .theme-toggle .icon-sun  { display: none; }
+  .theme-toggle .icon-moon { display: block; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/*
+   Social icons
+   --------------------------------------------------------------------------
+   _utilities.scss paints these in brand colours, and $github-color (#171516)
+   vanishes on the dark ground. Inheriting the text colour fixes that and makes
+   the row read as one set. */
+
+.author__urls,
+.page__footer-follow .social-icons {
+  .fa,
+  .fab,
+  .fas,
+  .far,
+  .ai {
+    color: inherit;
+  }
+}
+
+/*
+   Sidebar typeface
+   --------------------------------------------------------------------------
+   _sidebar.scss sets the face on `.sidebar p, .sidebar li` directly, and a
+   direct rule beats inheritance, so it must be overridden at that selector. */
+
+.sidebar {
+  p,
+  li {
+    font-family: $serif;
+    font-size: 0.85rem;
+    line-height: 1.7;
+  }
+
+  /* Icon rows need more leading. (0,3,0) so it beats the rule above. */
+  .author__urls li {
+    line-height: 1.9;
+  }
+}
+
+/*
+   Footer follow links
+   --------------------------------------------------------------------------
+   Scoped to these links only; the copyright links are plain text, where an
+   underline is right. */
+
+.page__footer-follow a {
+  &:hover {
+    color: var(--link-hover);
+    text-decoration: none;
+  }
+}
+
+/*
+   Reading measure
+   --------------------------------------------------------------------------
+   The column runs to roughly 130 characters unbounded; comfortable measure is
+   45-75. `ch` ties the cap to the typeface rather than a pixel guess. */
+
+.page__content,
+.archive__inner {
+  max-width: 72ch;
+}
+
+/*
+   Publication and talk entries
+   --------------------------------------------------------------------------
+   Rendered from _data/publications.yml and _data/talks.yml. */
+
+.entry-year {
+  margin: 2.2em 0 0.9em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  font-variant-numeric: tabular-nums;
+}
+
+.entry-list {
+  margin: 0 0 1.6em;
+  padding: 0;
+  list-style: none;
+}
+
+.entry {
+  margin: 0 0 1.35em;
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+/* Not a link: every entry has an explicit Paper link below. */
+.entry__title {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.entry__authors {
+  color: var(--text);
+}
+
+.entry__note {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.entry__meta {
+  color: var(--text-muted);
+  font-size: 0.92em;
+
+  a {
+    color: var(--text-muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-strong);
+
+    &:hover {
+      color: var(--link);
+      border-bottom-color: var(--link);
+    }
+  }
+}
+
+.entry__sep {
+  margin: 0 0.5em;
+  color: var(--text-fainter);
+}
+
+/* Its own row, not inline: titles wrap often enough that an inline badge
+   would align with neither the title nor the authors. */
+.entry__award-row {
+  margin: 0.22em 0 0.45em !important;
+  line-height: 1;
+}
+
+.entry__award {
+  display: inline-block;
+  padding: 0.16em 0.5em;
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+  color: var(--text);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* The bio is markdownified into paragraphs, so the gap between them is a
+   value here rather than a pair of <br> tags in the config. */
+.author__bio p {
+  margin: 0 0 0.65em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

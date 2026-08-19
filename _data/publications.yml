@@ -1,0 +1,99 @@
+# Publications, newest first. The page groups these by year automatically.
+#
+# Fields: title, authors, venue, year (required); note, award (optional);
+# links (optional), listed canonical-first.
+#
+# Link labels say what you get, not what kind of paper it is; the venue line
+# already carries that. Keep to this set so the column scans vertically:
+#   Paper  canonical published version, journal or proceedings alike
+#   arXiv  preprint
+#   Code   repository
+#   Video  recording of a talk
+#
+# Do not bold "Carlos Mora" here; the template does that wherever it appears.
+
+- title: "SEEK: Self-adaptive Explainable Kernel For Nonstationary Gaussian Processes"
+  authors: "Nima Negarandeh*, Carlos Mora*, Ramin Bostanabad"
+  note: "Equal contribution"
+  venue: "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference"
+  year: 2025
+  award: "Paper with Distinction"
+  links:
+    - { label: "Paper", url: "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2025/89237/V03BT03A041/1225905" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2503.14785" }
+    - { label: "Code",  url: "https://github.com/Bostanabad-Research-Group/GP-Plus" }
+
+- title: "Operator Learning with Gaussian Processes"
+  authors: "Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi, Houman Owhadi and Ramin Bostanabad"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  year: 2025
+  links:
+    - { label: "Paper", url: "https://www.sciencedirect.com/science/article/pii/S0045782524008351" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2409.04538" }
+    - { label: "Code",  url: "https://github.com/Bostanabad-Research-Group/GP-for-Operator-Learning" }
+
+- title: "Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes"
+  authors: "Amin Yousefpour, Shirin Hosseinmardi, Carlos Mora and Ramin Bostanabad"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  year: 2025
+  links:
+    - { label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S0045782524009526" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2408.03490" }
+    - { label: "Code",  url: "https://github.com/Bostanabad-Research-Group/GP-for-TO" }
+
+- title: "A gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations"
+  authors: "Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad"
+  venue: "Computational Mechanics"
+  year: 2025
+  links:
+    - { label: "Paper", url: "https://link.springer.com/article/10.1007/s00466-024-02559-0" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2401.03492" }
+    - { label: "Code",  url: "https://github.com/Bostanabad-Research-Group/GP-for-pde-solving" }
+
+- title: "GP+: A Python library for kernel-based learning via Gaussian processes"
+  authors: "Amin Yousefpour, Zahra Zanjani Foumani, Mehdi Shishehbor, Carlos Mora and Ramin Bostanabad"
+  venue: "Advances in Engineering Software"
+  year: 2024
+  links:
+    - { label: "Paper", url: "https://www.sciencedirect.com/science/article/pii/S0965997824000930" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2312.07694" }
+    - { label: "Code",  url: "https://github.com/Bostanabad-Research-Group/GP-Plus" }
+
+- title: "Integrating Kernel Methods and Deep Neural Networks for Solving PDEs"
+  authors: "Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad"
+  venue: "ICLR, Workshop on AI4DifferentialEquations In Science"
+  year: 2024
+  links:
+    - { label: "Paper", url: "https://openreview.net/pdf?id=5bRRVmYhVS" }
+
+# - title: "Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations"
+#   authors: "Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad"
+#   venue: "arXiv preprint"
+#   year: 2024
+#   links:
+#     - { label: "arXiv", url: "https://arxiv.org/abs/2401.03492" }
+
+- title: "Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets"
+  authors: "Carlos Mora*, Jonathan Tammer Eweis-Labolle*, Tyler Johnson, Likith Gadde and Ramin Bostanabad"
+  note: "Equal contribution"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  year: 2023
+  links:
+    - { label: "Paper", url: "https://www.sciencedirect.com/science/article/pii/S0045782523003316" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2301.13271" }
+    - { label: "Code",  url: "https://gitlab.com/TammerUCI/pro-ndf" }
+
+- title: "Data-Driven Calibration of Multifidelity Multiscale Fracture Models Via Latent Map Gaussian Process"
+  authors: "Shiguang Deng, Carlos Mora, Diran Apelian and Ramin Bostanabad"
+  venue: "Journal of Mechanical Design"
+  year: 2023
+  links:
+    - { label: "Paper", url: "https://asmedigitalcollection.asme.org/mechanicaldesign/article/145/1/011705/1147508/Data-Driven-Calibration-of-Multifidelity" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2205.12157" }
+
+- title: "Multi-Fidelity Reduced-Order Models for Multiscale Damage Analyses With Automatic Calibration"
+  authors: "Shiguang Deng, Carlos Mora, Diran Apelian, Ramin Bostanabad"
+  venue: "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference"
+  year: 2022
+  links:
+    - { label: "Paper", url: "https://solarenergyengineering.asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86236/V03BT03A031/1150433" }

@@ -16,9 +16,15 @@ layout: default
   {% include sidebar.html %}
 
   <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-    {{ content }}
+    {%- comment -%}
+      .archive is floated right, so capping its width would shift the column
+      rather than shorten the lines. The measure goes on the wrapper instead.
+    {%- endcomment -%}
+    <div class="archive__inner">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <h1 class="page__title">{{ page.title }}</h1>
+      {% endunless %}
+      {{ content }}
+    </div>
   </div>
 </div>
