@@ -1,18 +1,10 @@
-# main links links
-main:    
-  # - title: "Portfolio"
-  #   url: /portfolio/
+# Top navigation bar.
+main:
   - title: "About"
     url: /about/
 
   - title: "Publications & Talks"
     url: /publications-talks/
 
-  # - title: "Talks"
-  #   url: /Talks/
-    
   - title: "Resume"
     url: /files/Resume.pdf
-    
-  # - title: "Guide"
-  #   url: /markdown/

@@ -66,13 +66,6 @@
   links:
     - { label: "Paper", url: "https://openreview.net/pdf?id=5bRRVmYhVS" }
 
-# - title: "Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations"
-#   authors: "Carlos Mora, Amin Yousefpour, Shirin Hosseinmardi and Ramin Bostanabad"
-#   venue: "arXiv preprint"
-#   year: 2024
-#   links:
-#     - { label: "arXiv", url: "https://arxiv.org/abs/2401.03492" }
-
 - title: "Probabilistic neural data fusion for learning from an arbitrary number of multi-fidelity data sets"
   authors: "Carlos Mora*, Jonathan Tammer Eweis-Labolle*, Tyler Johnson, Likith Gadde and Ramin Bostanabad"
   note: "Equal contribution"
