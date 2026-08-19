@@ -198,7 +198,7 @@ h2 { letter-spacing: -0.016em; }
   }
 
   @include breakpoint($x-large) {
-    right: calc((100% - #{$x-large}) / 2 + 1em);
+    right: calc((100% - #{$content-max}) / 2 + 1em);
   }
 }
 
@@ -377,4 +377,14 @@ h2 { letter-spacing: -0.016em; }
   letter-spacing: 0.09em;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+/* The bio is markdownified into paragraphs, so the gap between them is a
+   value here rather than a pair of <br> tags in the config. */
+.author__bio p {
+  margin: 0 0 0.65em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }

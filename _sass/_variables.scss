@@ -126,6 +126,10 @@ $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
 
+/* Container width, distinct from the breakpoint above: the text is capped at
+   a reading measure, so a wider container only adds empty column. */
+$content-max                : 1120px;
+
 /*
    Grid
    ========================================================================== */
