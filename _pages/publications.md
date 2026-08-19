@@ -7,10 +7,6 @@ author_profile: true
 
 <h2>Publications</h2>
 
-{% if site.author.googlescholar %}
-<p>You can also find my publications on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
-{% endif %}
-
 {% assign pub_years = site.data.publications | map: "year" | uniq | sort | reverse %}
 {% for y in pub_years %}
 <h3 class="entry-year">{{ y }}</h3>
